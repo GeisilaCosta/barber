@@ -1,7 +1,15 @@
 import { Button } from "./_components/ui/button"
+import { Card, CardContent } from "./_components/ui/card"
+import Image from "next/image"
 
 const Home = () => {
-  return <Button>test</Button>
+  return (
+    <Card>
+      <CardContent>
+        <Image alt="FSW Barber" src="/logo.png" heigth= {18} width= {120}/>
+      </CardContent>
+    </Card>
+  )
 }
 
 export default Home
