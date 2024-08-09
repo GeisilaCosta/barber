@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <Card>
       <CardContent>
-        <Image alt="FSW Barber" src="/logo.png" heigth= {18} width= {120}/>
+        <Image alt="FSW Barber" src="/logo.png" />
       </CardContent>
     </Card>
   )
